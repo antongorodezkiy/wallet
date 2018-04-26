@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "cartalyst/stripe-laravel": "7.0.*",
+        "cartalyst/stripe-laravel": "8.0.*",
         "laravel/cashier": "~7.0"
     },
     "require-dev": {
