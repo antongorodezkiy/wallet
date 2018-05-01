@@ -87,7 +87,7 @@ trait Billable
         }
 
         if (! array_key_exists('source', $options) && ! array_key_exists('customer', $options)) {
-            throw new InvalidArgumentException('No payment source provided.');
+            throw new \InvalidArgumentException('No payment source provided.');
         }
 
         if (array_key_exists('cardId', $options)) {
